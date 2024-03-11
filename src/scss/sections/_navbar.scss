@@ -8,10 +8,14 @@
             padding: 0 0.5rem !important;   
         }
         padding: 0 1rem !important;
-        color: white !important;
+        color: rgba(255, 255, 255, 0.671) !important;
         font-weight: 500;
         text-transform: capitalize;
         &:hover{
+            color: $white !important;
+        }
+        &.active{
+            color: $white !important;
         }
     }
 }   

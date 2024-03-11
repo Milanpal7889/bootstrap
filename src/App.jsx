@@ -1,13 +1,13 @@
 import './App.scss'
-import { Intro } from './components/Intro'
 import { Navnavbar } from './components/Navnavbar'
+import { Home } from './pages/Home'
 
 function App() {
 
   return (
     <>
       <Navnavbar/>
-      <Intro/>
+      <Home/>
     </>
   )
 }

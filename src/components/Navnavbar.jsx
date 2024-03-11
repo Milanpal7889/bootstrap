@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 export const Navnavbar = () => {
   return (
-    <Navbar expand="md" bg="dark" data-bs-theme="dark" className="custom-navbar">
+    <Navbar expand="md" bg="dark" data-bs-theme="dark" className="custom-navbar shadow">
       <Container>
         <Navbar.Brand href="#home">
           <img
@@ -23,16 +23,16 @@ export const Navnavbar = () => {
             <Nav.Link className="" href="#home">
               Home
             </Nav.Link>
-            <Nav.Link href="#link">
+            <Nav.Link href="#services">
               Services
             </Nav.Link>
-            <Nav.Link href="#link">
+            <Nav.Link href="#testimonials">
               Testimonials
             </Nav.Link>
-            <Nav.Link href="#link">
+            <Nav.Link href="#faq">
               faq
             </Nav.Link>
-            <Nav.Link href="#link">
+            <Nav.Link href="#contact">
               contact
             </Nav.Link>
           </Nav>
